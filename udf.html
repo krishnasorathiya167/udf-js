@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // 1.check number positive and negetive? (using simple function)
+
+        // function number(a) {
+        //     a = parseInt(prompt("Enter Number"));
+        //     return a;
+        // }
+        // let result = number();
+        // if (result>=0) {
+        //     console.log("Number is positive.");
+        // }else{
+        //     console.log("Number is negative.");
+        // }
+
+
+        // 2.check number positive and negetive?(using no return with parameter)
+
+        //    function num(a) {
+        //    a = parseInt(prompt("Enter Value Number"));
+        //    if(a>=0){
+        //     console.log("number is positive.");
+        //    }else{
+        //     console.log("number is negative");
+        //    }
+        // }
+        // num();
+
+        // 3.find which number is greter in 4 numbers using nested if else. (using simple function)
+
+        // function input(a,b,c,d) {
+        //     a = parseInt(prompt("Enter Value A"));
+        //     b = parseInt(prompt("Enter Value B"));
+        //     c = parseInt(prompt("Enter Value C"));
+        //     d = parseInt(prompt("Enter Value D"));
+
+        //     if(a>b&&a>c&&a>d){
+        //         console.log("A is Max");
+        //     }else{
+        //         if(b>c&&b>d){
+        //             console.log("B is Max");
+        //         }else{
+        //             if(c>d){
+        //                 console.log("C is Max");
+        //             }else{
+        //                 console.log("D is Max");
+        //             }
+        //         }
+        //     }
+        // }
+        // input();
+
+
+        // 4. find which number is greter in 4 numbers using ledder if else. (using no return with parameter function).
+
+        // function input(a,b,c,d) {
+        //     a = parseInt(prompt("Enter Value A"));
+        //     b = parseInt(prompt("Enter Value B"));
+        //     c = parseInt(prompt("Enter Value C"));
+        //     d = parseInt(prompt("Enter Value D"));
+
+        //     if(a>b&&a>b&&a>c&&a>d){
+        //         console.log("A is max");
+        //     }else if(b>c&&b>d){
+        //         console.log("B is Max");
+        //     }else if (c>d){
+        //         console.log("C is Max");
+        //     }else{
+        //         console.log("D is Max");
+        //     }
+
+        // }
+        // input();
+
+        // 5.add two number of addition, subtraction, multiplication, division (using simple function)
+
+        // function input(a,b) {
+        //     a = parseInt(prompt("Enter Value A"));
+        //     b = parseInt(prompt("Enter VAlue B"));
+
+        //     console.log("Addition",a+b);
+        //     console.log("Substraction",a-b);
+        //     console.log("multiplication",a*b);
+        //     console.log("division",a/b);
+        // }
+        // input();
+
+        // 6. perform a swapping of two variables.(all function use)
+        // 1.
+        // function input(a,b,c) {
+        //     a = parseInt(prompt("Enter VAlue A "));
+        //     b = parseInt(prompt("Enter VAlue B "));
+
+        //     console.log("A = ",a);
+        //     console.log("b = ",b);
+        //     c = a;
+        //     a = b;
+        //     b = c;
+
+        //     console.log("Swap A =",a);
+        //     console.log("swap B =",b);
+        // }
+        // input();
+
+        // 2.
+        // (function(a,b,c){
+        //     a = parseInt(prompt("Enter VAlue A "));
+        //     b = parseInt(prompt("Enter VAlue B "));
+
+        //     console.log("A = ",a);
+        //     console.log("b = ",b);
+        //     c = a;
+        //     a = b;
+        //     b = c;
+
+        //     console.log("Swap A =",a);
+        //     console.log("swap B =",b);
+        // })()
+
+        // 3.
+        // ((a,b,c)=>{
+        //     a = parseInt(prompt("Enter VAlue A "));
+        //     b = parseInt(prompt("Enter VAlue B "));
+
+        //     console.log("A = ",a);
+        //     console.log("b = ",b);
+        //     c = a;
+        //     a = b;
+        //     b = c;
+
+        //     console.log("Swap A =",a);
+        //     console.log("swap B =",b);
+        // })()
+
+
+        // 7.find which number is greter in 3 numbers using nested if else.(using all function)
+        // 1.
+        // function input(a,b,c) {
+        //     a = parseInt(prompt("ENter value A"));
+        //     b = parseInt(prompt("Enter VAlue B"));
+        //     c = parseInt(prompt("Enter VAlue c"));
+
+        //     if(a>b&&a>c){
+        //         console.log("A is Max");
+        //     }else{
+        //         if(b>c){
+        //             console.log("B is Max");
+        //         }else{
+        //             console.log("C is Max");
+        //         }
+        //     }
+        // }
+        // input();
+
+        // 2.
+        // (function (a,b,c) {
+        //     a = parseInt(prompt("ENter value A"));
+        //     b = parseInt(prompt("Enter VAlue B"));
+        //     c = parseInt(prompt("Enter VAlue c"));
+
+        //     if(a>b&&a>c){
+        //         console.log("A is Max");
+        //     }else{
+        //         if(b>c){
+        //             console.log("B is Max");
+        //         }else{
+        //             console.log("C is Max");
+        //         }
+        //     }
+        // })()
+
+        // 3.
+        // ((a,b,c)=>{
+        //     a = parseInt(prompt("ENter value A"));
+        //     b = parseInt(prompt("Enter VAlue B"));
+        //     c = parseInt(prompt("Enter VAlue c"));
+
+        //     if(a>b&&a>c){
+        //         console.log("A is Max");
+        //     }else{
+        //         if(b>c){
+        //             console.log("B is Max");
+        //         }else{
+        //             console.log("C is Max");
+        //         }
+        //     }
+        // })()
+
+        // 8.create basic calculator using switch case.
+
+        // function calcy(a, b) {
+        //     a = parseInt(prompt("Enter Value A"));
+        //     b = parseInt(prompt("Enter VAlue B"));
+
+        //     console.log("A = ",a);
+        //     console.log("B = ",b);
+
+        //     console.log("press + for addition");
+        //     console.log("press - for subsctiction");
+        //     console.log("press * for multiplication");
+        //     console.log("press / for division");
+
+        //     let input = prompt("Enter Your Choice");
+
+        //     switch (input) {
+        //         case '+':
+        //             console.log("addition", a + b);
+        //             break;
+        //         case '-':
+        //             console.log("substriction", a - b);
+        //             break;
+        //         case '*':
+        //             console.log("multiplication", a * b);
+        //             break;
+        //         case '/':
+        //             console.log("division", a / b);
+        //             break;
+        //         default:
+        //             console.log("Enter Valid choice");
+        //     }
+        // }
+        // calcy();
+
+        // 11.Write a JavaScript   program to input angles of a triangle and check whether triangle is valid or not.(using all function)
+
+        // 1.
+        // function triangle(n) {
+        //     n = parseInt(prompt("Enter Triangle Angles"));
+        //     if(n===3){
+        //         console.log("Triagle angles is right");
+        //     }else{
+        //         console.log("Triangle Angle is wrong");
+        //     }
+        // }
+        // triangle();
+
+        // 2.
+        // (function(n){
+        //     n = parseInt(prompt("Enter Triangle Angles"));
+        //     if(n===3){
+        //         console.log("Triagle angles is right");
+        //     }else{
+        //         console.log("Triangle Angle is wrong");
+        //     }
+        // })()
+
+        // 3.
+        // ((n)=>{
+        //     n = parseInt(prompt("Enter Triangle Angles"));
+        //     if(n===3){
+        //         console.log("Triagle angles is right");
+        //     }else{
+        //         console.log("Triangle Angle is wrong");
+        //     }
+        // })()
+
+
+        // 10.decide that you eligible for voting? (using all function)
+        // 1.
+        // function vote(n) {
+        //    n = parseInt(prompt("Enter Your Age"));
+
+        //    if(n>18){
+        //     console.log("you Are Eligible for voting");
+        //    }else{
+        //     console.log("You Are not eligible for voting");
+        //    }
+        // }
+        // vote();
+
+        // 2.
+        // (function (n) {
+        //     n = parseInt(prompt("Enter Your Age"));
+        //     if(n>18){
+        //     console.log("you Are Eligible for voting");
+        //    }else{
+        //     console.log("You Are not eligible for voting");
+        //    }
+        // })()
+
+        // 3.
+        // ((n)=>{
+        //     n = parseInt(prompt("Enter Your Age"));
+        //     if(n>18){
+        //     console.log("you Are Eligible for voting");
+        //    }else{
+        //     console.log("You Are not eligible for voting");
+        //    }
+        // })()
+
+
+
+    </script>
+</body>
+
+</html>
